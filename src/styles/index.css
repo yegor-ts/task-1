@@ -1,0 +1,94 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+table {
+    margin: 0 auto;
+    border-spacing: 0 10px;
+    margin-top: -10px;
+}
+
+table th,
+table td {
+    padding: 10px;
+}
+
+table tr td {
+    color: #999999;
+}
+
+table tr td:nth-child(1),
+table tr th:nth-child(1) {
+    color: #000;
+    font-size: 20px;
+    width: 30px;
+}
+
+table tr td:nth-child(2),
+table tr th:nth-child(2) {
+    color: #000;
+    width: 120px;
+}
+
+table tr td:nth-child(5),
+table tr th:nth-child(5) {
+    width: 260px;
+}
+
+table tr td:nth-child(3),
+table tr th:nth-child(3),
+table tr td:nth-child(4),
+table tr th:nth-child(4) {
+    width: 130px;
+}
+
+table tr td:nth-child(6),
+table tr th:nth-child(6) {
+    width: 70px;
+}
+
+table tr td:nth-child(7),
+table tr th:nth-child(7) {
+    width: 105px;
+}
+
+thead {
+    background-color: #999999;
+    color: #fff;
+    text-align: left;
+}
+
+thead td {
+    border-radius: 10px;
+}
+
+th:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+th:last-child {
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+tbody {
+    background-color: #E7EAF5;
+}
+
+section {
+    margin-bottom: 80px;
+}
+
+
+.add-button {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.add-button:hover {
+    color: #999999;
+    border: 2px solid #999999;
+    cursor: pointer;
+}
