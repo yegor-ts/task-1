@@ -2,21 +2,22 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/index.css">
 
-    <title>Radency test task 1</title>
+    <title>Radency Test Task 1</title>
 </head>
 
 <body>
+    <div class="popup d-none"></div>
     <section>
-        <table>
+        <table class="notes-table">
             <thead>
                 <tr>
                     <th></th>
@@ -26,18 +27,21 @@
                     <th>Content</th>
                     <th>Dates</th>
                     <th>
-                        <button>
+                        <button class="show-archived-notes-button">
                             <i class="fa-solid fa-box-archive"></i> Archive
+                        </button>
+                        <button class="show-active-notes-button d-none">
+                            <i class="fa-regular fa-note-sticky"></i> Active
                         </button>
                     </th>
                 </tr>
             </thead>
             <tbody></tbody>
         </table>
-        <button class="add-button">Create note</button>
+        <button class="add-button">Create Note</button>
     </section>
     <section>
-        <table>
+        <table class="summary-table">
             <thead>
                 <tr>
                     <th></th>
@@ -51,6 +55,7 @@
     </section>
 
     <script src="https://kit.fontawesome.com/46fef9d527.js" crossorigin="anonymous"></script>
+    <script type="module" src="scripts/index.js"></script>
 </body>
 
 </html>
