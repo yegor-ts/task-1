@@ -17,6 +17,6 @@
 │    │   └── app.js                      # main application scripts
 │    └── styles                     # styles
 │        └── index.css                   # main styles file
-├──.gitignore                    # main source code
+├──.gitignore                    # gitignore config
 └── README.md                    # documentation                       
 ```
